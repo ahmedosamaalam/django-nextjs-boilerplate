@@ -1,0 +1,28 @@
+# .env.development
+DEBUG=True
+SECRET_KEY='django-insecure-4$jlpgausa+*d8%%3v&o$uy%ahw!zq^%qsvlce=$#6+4d^e-vi'
+DATABASE_URL=postgres://osama:admin@localhost:5432/lovelyti_dev
+
+
+# s3
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_STORAGE_BUCKET_NAME=
+AWS_REGION_NAME=
+AWS_CLOUDFRONT_DOMAIN_NAME=
+
+
+
+DAILY_API_KEY=
+DAILY_BASE_URL=
+EXP=30
+ENABLE_RECORDING=false
+
+GIPHY_WEB=
+GIPHY_ANDROID=
+GIPHY_IOS=
+
+
+YOUTUBE_API_KEY=
+APP_API_KEY=
+
