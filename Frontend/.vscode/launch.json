@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Next.js: Launch",
+      "skipFiles": ["<node_internals>/**"],
+      "runtimeExecutable": "${NVM_HOME}/v20.5.1/bin/node", // Replace ${NVM_HOME} with the actual path to your nvm installation
+      "runtimeArgs": ["${NVM_HOME}/v20.5.1/bin/npm", "run", "dev"],
+      "port": 3000,
+      "stopOnEntry": false,
+      "sourceMaps": true,
+      "protocol": "inspector",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}
