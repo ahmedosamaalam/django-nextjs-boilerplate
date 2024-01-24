@@ -1,7 +1,7 @@
 # .env.development
 DEBUG=True
-SECRET_KEY='django-insecure-4$jlpgausa+*d8%%3v&o$uy%ahw!zq^%qsvlce=$#6+4d^e-vi'
-DATABASE_URL=postgres://osama:admin@localhost:5432/lovelyti_dev
+SECRET_KEY=
+DATABASE_URL=postgres://osama:admin@localhost:5432/abc-dev
 
 
 # s3
